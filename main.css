@@ -38,3 +38,23 @@ a, a:hover {
   width: 100%;
   height: 100%;
 }
+
+#one {
+  background: #fff url('http://static.tumblr.com/mpxaxgc/6PImgfqxs/onebg.png') bottom left no-repeat;
+  height: 100%;
+}
+
+#two {
+  background: #FFB273 url('http://static.tumblr.com/mpxaxgc/4Hqmgfsca/twobg.png') bottom left no-repeat;
+  height: 100%;
+}
+
+#three {
+  background: #FF9640 url('http://static.tumblr.com/mpxaxgc/n3dmgfsp6/threebg.png') bottom left no-repeat;
+  height: 100%;
+}
+
+#four {
+  background: #BF7130 url('http://static.tumblr.com/mpxaxgc/1OAmgfst3/fourbg.png') bottom left no-repeat;
+  height: 100%;
+}
