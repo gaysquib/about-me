@@ -1,80 +1,89 @@
-html, body {
-  width: 100%
-  height: 100%;
-  margin: 0;
-  padding: 0;
+body, html {
+height: 100%;
+margin: 0;
+padding: 0;
 }
 
 body {
-  font-size: 11px;
-  font-family: verdana;
-  color: #000000;
+font-size: 11px;
+font-family: verdana;
+color: #000000;
 }
 
-p {
-  padding: 0 5px 0 5px;
+strong, em, a {
+color: #000;
 }
 
 hr {
-  border: none;
-  border-top: dashed 1px;
-  color: #000;
-  height: 1px;
+border: none;
+border-top: dashed 1px;
+color: #000;
+height: 1px;
+}
+
+a {
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: none;
+font-weight: bold;
 }
 
 ul {
-  list-style-type: square;
-  padding: 0 15px 0 30px;
+list-style-type: square;
+padding: 0 15px 0 30px;
 }
 
-a, a:hover {
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
+p {
+padding: 0 5px 0 5px;
 }
 
 .title {
-  font-size: 25px;
-  width: 100%;
-  background-color: #FF7400;
-  font-family: Georgia;
-  text-align: center;
-  text-transform: uppercase;
+font-size: 25px;
+width: 100%;
+background-color: #FF7400;
+font-family: georgia;
+text-align: center;
+position: fixed;
+padding: 5px 0;
+top: 0;
+left: 0;
+}
+
+.outer {
+position: fixed;
+top: 39px;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
 }
 
 .desc {
-  position: fixed;
-  top: 38px;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.desc .container, .desc .container .row {
-  height: 100%;
-}
-
-.desc p:first-child {
-  padding-top: 10px;
+float: left;
+margin: 0;
+padding: 0;
+width: 25%;
 }
 
 #one {
-  background: #fff;
-  height: 100%;
+background: #ffffff url('http://static.tumblr.com/mpxaxgc/6PImgfqxs/onebg.png') bottom left no-repeat;
+height: 100%;
 }
 
 #two {
-  background: #FFB273;
-  height: 100%;
+background: #FFB273 url('http://static.tumblr.com/mpxaxgc/4Hqmgfsca/twobg.png') bottom left no-repeat;
+height: 100%;
 }
 
 #three {
-  background: #FF9640;
-  height: 100%;
+background: #FF9640 url('http://static.tumblr.com/mpxaxgc/n3dmgfsp6/threebg.png') bottom left no-repeat;
+height: 100%;
 }
 
 #four {
-  background: #BF7130;
-  height: 100%;
+background: #BF7130 url('http://static.tumblr.com/mpxaxgc/1OAmgfst3/fourbg.png') bottom left no-repeat;
+height: 100%;
 }
