@@ -42,10 +42,12 @@ a, a:hover {
 }
 
 .desc {
-  clear: both;
-  top: 38px;
-  width: 100%;
+  position: fixed;
+  top: 39px;
   height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #one {
