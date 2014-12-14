@@ -4,11 +4,25 @@ body {
   color: #000;
 }
 
+p {
+  padding: 0 5px;
+}
+
 hr {
   border: none;
   border-top: dashed 1px;
   color: #000;
   height: 1px;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0 15px 0 30px;
+}
+
+a, a:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .title {
