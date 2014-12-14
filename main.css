@@ -50,7 +50,7 @@ a, a:hover {
   padding: 0;
 }
 
-.desc div div div {
+.desc .row .container div {
   float: left;
   margin: 0;
   padding: 0;
