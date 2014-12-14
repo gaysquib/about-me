@@ -5,3 +5,8 @@
   font-family: Georgia;
   text-align: center;
 }
+
+.desc {
+  float: left;
+  display: inline;
+}
