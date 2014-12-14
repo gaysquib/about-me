@@ -50,6 +50,10 @@ a, a:hover {
   padding: 0;
 }
 
+.desc p:first-child {
+  padding-top: 5px;
+}
+
 #one {
   background: #fff;
   height: 100%;
