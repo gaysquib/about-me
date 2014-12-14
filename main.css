@@ -44,11 +44,15 @@ a, a:hover {
 
 .desc {
   position: fixed;
-  top: 40px;
+  top: 38px;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.desc .container, .desc .container .row {
+  height: 100%;
 }
 
 .desc p:first-child {
