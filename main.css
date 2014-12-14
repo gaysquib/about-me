@@ -35,9 +35,11 @@ a, a:hover {
   background-color: #FF7400;
   font-family: Georgia;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .desc {
+  clear: both;
   width: 100%;
   height: 100%;
 }
