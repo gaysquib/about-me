@@ -1,4 +1,4 @@
-.nav a {
+.nav a{
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
@@ -6,35 +6,35 @@
   text-transform: uppercase;
 }
 
-.nav li {
+.nav li{
   display: inline;
 }
 
-.jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
+.jumbotron{
+  background-image: url('http://goo.gl/04j7Nn');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.jumbotron .container {
+.jumbotron .container{
   position: relative;
   top:100px;
 }
 
-.jumbotron h1 {
+.jumbotron h1{
   color: #fff;
   font-size: 48px;  
   font-family: 'Slabo 27px', serif;
   font-weight: bold;
 }
 
-.jumbotron p {
+.jumbotron p{
   font-size: 20px;
   color: #fff;
 }
 
-.interest {
+.interest{
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -44,21 +44,21 @@
     font-size: 24px;
 }
 
-.interest p {
+.interest p{
     font-size: 15px;
     margin-bottom: 13px;
 }
 
-.other {
+.other{
   background-color: #f7f7f7;
 }
 
-.other h3 {
+.other h3{
   font-family: 'Slabo 27px', serif;
   font-size: 18px;
   font-weight: bold;
 }
 
-.other a {
+.other a{
   color: #00b0ff;
 }
